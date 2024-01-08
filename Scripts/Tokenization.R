@@ -13,6 +13,7 @@ Text <- text_list %>% unlist() %>% paste(collapse = ".")
 
 
 # Passo 2 - Tokenizar baseado na ISO
+(
 freq_tokens <- Text %>%
   tokenize_words() %>%
   dplyr::tibble() %>%
@@ -22,4 +23,11 @@ freq_tokens <- Text %>%
   dplyr::count(tokens) %>%
   dplyr::arrange(desc(n)) %>%
   #manual filter
-  dplyr::filter(!(tokens %in% c("1","â","nha","wiley","2019")))
+  dplyr::filter(!(tokens %in% c("1","â","nha","wiley","figure",
+                                "crossref","https","online",
+                                "pubmed","doi","estadual","bezerra",
+                                "ferreira","zambuzzi","bergamo","fernandes",
+                                "w.f","m.r","silva","nyu","unesp",
+                                as.character(1990:2030),
+                                as.character(1:1000))))
+)
