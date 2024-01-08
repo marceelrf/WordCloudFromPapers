@@ -1,5 +1,6 @@
 ---
 output: github_document
+bibliography: references.bib
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -13,4 +14,39 @@ knitr::opts_chunk$set(
 
 # WordCloudFromPapers
 
+### Steps:
+
+-   **ETL**;
+
+-   **Tokenization**;
+
+-   **Plot**;
+
+This wordcloud was generate from these papers:
+
+-   MicroRNA biogenesis machinery activation and lncRNA and REST overexpression as neuroprotective responses to fight inflammation in the hippocampus [@Carvalho2023];
+
+-   Cyclopamine targeting hedgehog modulates nuclear control of the osteoblast activity [@da2023];
+
+-   Development of cobalt (Co)-doped monetites for bone regeneration [@de2023];
+
+-   Osteogenic differentiation and reconstruction of mandible defects using a novel resorbable membrane: An in vitro and in vivo experimental study [@bergamo2023];
+
+-   The Multifarious Functions of Leukotrienes in Bone Metabolism [@Amadeu2023];
+
+-   Epigenetic Differences Arise in Endothelial Cells Responding to Cobalt--Chromium [@da2023a];
+
+-   Titanium-Enriched Medium Promotes Environment-Induced Epigenetic Machinery Changes in Human Endothelial Cells [@Fernandes2023];
+    \
+
+
+
+
+    \
+
+
+    \
+
 ![Example](wc.png)
+
+## References
