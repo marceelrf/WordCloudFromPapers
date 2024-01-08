@@ -3,13 +3,52 @@
 
 # WordCloudFromPapers
 
+Welcome to ***WordCloudFromPapers***, your go-to solution for
+effortlessly generating word clouds from sets of academic papers in PDF
+format. This GitHub repository houses a powerful tool crafted in R,
+designed to simplify the intricate process of transforming dense
+research content into visually striking representations.
+
 ### Steps:
 
-- **ETL**;
+- **ETL (Extract, Transform, Load)**:
 
-- **Tokenization**;
+  - Seamlessly extract valuable textual data from PDF files.
 
-- **Plot**;
+  - Transform the raw data into a structured format, ready for analysis.
+
+  - Load the processed information for subsequent tokenization.
+
+- **Tokenization**:
+
+  - Break down the text into individual tokens, capturing the essence of
+    each word.
+
+  - Implement advanced linguistic processing to enhance accuracy.
+
+  - Prepare the groundwork for the final step - creating a meaningful
+    word cloud.
+
+- **Plot**:
+
+  - Leverage the power of R to create captivating visualizations using
+    the wordcloud2 package (Lang 2023).
+
+  - Craft aesthetically pleasing word clouds that highlight the most
+    prominent terms.
+
+Why ***WordCloudFromPapers***?
+
+**Efficiency**: Streamline your workflow with a three-step process that
+takes the complexity out of text analysis.
+
+**Flexibility**: Tailor your word clouds to meet specific requirements,
+ensuring meaningful insights.
+
+**User-Friendly**: Whether you’re a seasoned R user or a beginner, our
+tool is designed to be accessible to all.
+
+### Example
 
 This wordcloud was generate from these papers:
 
@@ -45,6 +84,13 @@ This wordcloud was generate from these papers:
 <img src="wc.png" alt="Example" />
 <figcaption aria-hidden="true">Example</figcaption>
 </figure>
+
+## Contribute
+
+- Join the community and contribute to the enhancement of this tool.
+
+- Report issues, suggest improvements, and collaborate with fellow
+  enthusiasts.
 
 ## References
 
@@ -125,6 +171,13 @@ de Moraes, Fábio J. Bezerra, and Willian F. Zambuzzi. 2023.
 “Titanium-Enriched Medium Promotes Environment-Induced Epigenetic
 Machinery Changes in Human Endothelial Cells.” *Journal of Functional
 Biomaterials* 14 (3): 131. <https://doi.org/10.3390/jfb14030131>.
+
+</div>
+
+<div id="ref-wordcloud2" class="csl-entry">
+
+Lang, Dawei. 2023. “Wordcloud2: Create Word Cloud by htmlWidget.”
+<https://github.com/lchiffon/wordcloud2>.
 
 </div>
 

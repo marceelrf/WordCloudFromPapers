@@ -3,7 +3,7 @@
 
 # Passo 1 - listar todos os pdfs disponíveis
 
-pdfs <- list.files(path = "Papers/",full.names = T)
+pdfs <- list.files(path = "Papers_gembio/",full.names = T)
 
 # Passo 2 - importar via loop
 

@@ -14,13 +14,41 @@ knitr::opts_chunk$set(
 
 # WordCloudFromPapers
 
+Welcome to ***WordCloudFromPapers***, your go-to solution for effortlessly generating word clouds from sets of academic papers in PDF format. This GitHub repository houses a powerful tool crafted in R, designed to simplify the intricate process of transforming dense research content into visually striking representations.
+
 ### Steps:
 
--   **ETL**;
+-   **ETL (Extract, Transform, Load)**:
 
--   **Tokenization**;
+    -   Seamlessly extract valuable textual data from PDF files.
 
--   **Plot**;
+    -   Transform the raw data into a structured format, ready for analysis.
+
+    -   Load the processed information for subsequent tokenization.
+
+-   **Tokenization**:
+
+    -   Break down the text into individual tokens, capturing the essence of each word.
+
+    -   Implement advanced linguistic processing to enhance accuracy.
+
+    -   Prepare the groundwork for the final step - creating a meaningful word cloud.
+
+-   **Plot**:
+
+    -   Leverage the power of R to create captivating visualizations using the wordcloud2 package [@wordcloud2].
+
+    -   Craft aesthetically pleasing word clouds that highlight the most prominent terms.
+
+Why ***WordCloudFromPapers***?
+
+**Efficiency**: Streamline your workflow with a three-step process that takes the complexity out of text analysis.
+
+**Flexibility**: Tailor your word clouds to meet specific requirements, ensuring meaningful insights.
+
+**User-Friendly**: Whether you're a seasoned R user or a beginner, our tool is designed to be accessible to all.
+
+### Example
 
 This wordcloud was generate from these papers:
 
@@ -36,17 +64,18 @@ This wordcloud was generate from these papers:
 
 -   Epigenetic Differences Arise in Endothelial Cells Responding to Cobalt--Chromium [@da2023a];
 
--   Titanium-Enriched Medium Promotes Environment-Induced Epigenetic Machinery Changes in Human Endothelial Cells [@Fernandes2023];
-    \
-
-
-
+-   Titanium-Enriched Medium Promotes Environment-Induced Epigenetic Machinery Changes in Human Endothelial Cells [@Fernandes2023];\
 
     \
-
 
     \
 
 ![Example](wc.png)
+
+## Contribute
+
+-   Join the community and contribute to the enhancement of this tool.
+
+-   Report issues, suggest improvements, and collaborate with fellow enthusiasts.
 
 ## References
