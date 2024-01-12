@@ -31,3 +31,14 @@ freq_tokens <- Text %>%
                                 as.character(1990:2030),
                                 as.character(1:1000))))
 )
+
+
+# Passo 3 - filtragem 
+
+
+# word_nmax <- 3000
+# word_freqmin <- 50
+# 
+# freq_tokens %>% 
+#   slice_max(order_by = n, n = word_nmax) %>% 
+#   filter(n > word_freqmin)
